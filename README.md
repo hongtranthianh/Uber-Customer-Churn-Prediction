@@ -23,7 +23,7 @@
 
 To meet the need of surviving in this competitive industry, the retention of existing customers becomes a huge challenge. Because retaining an existing customer is a much lower cost than acquiring a new customer, to have a better customer retention strategy, this project will use transactional data about Uber trips as an experiment doing the following:
 * Evaluate the business performance of Uber in 2010
-* Propose a prediction model with **Logistic Regression** to detects who is likely to churn in the next 3 months.
+* Build a prediction model with **Logistic Regression** to detects who is likely to churn in the next 3 months.
 * Segment churners.
 
 ## 3. File Descriptions <a name="files"></a>
@@ -56,10 +56,32 @@ To meet the need of surviving in this competitive industry, the retention of exi
 
 ## 4. How to interact <a name="interact"></a>
 
+**Step 1**: Pull this repository to your local machine
+```
+git clone https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction.git
+```
+
+**Step 2**: Run `functions.py` file
+```
+cd classifier
+```
+
+```
+py functions.py
+```
+
+**Step 2**: Find below notebooks for specific purpose
+* Get to know the data and do EDA: [EDA.ipynb](https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction/blob/main/EDA.ipynb)
+* Build a prediction model with **Logistic Regression** to detects who is likely to churn in the next 3 months:
+    - [Feature engineering.ipynb](https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction/blob/main/Feature%20engineering.ipynb)
+    - [Build classifier.ipynb](https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction/blob/main/classifier/Build%20classifier.ipynb)
+* Segment churners: [Churn segmentation.ipynb](https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction/blob/main/Churn%20segmentation.ipynb)
 
 ## 5. Results<a name="results"></a>
 The main findings of the code can be found at the post available [here](https://github.com/hongtranthianh/hongtranthianh.github.io/blob/main/_posts/Uber-customer-churn-prediction.md)
 
 ## 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
+Data is directly taken from [Kaggle](https://www.kaggle.com/datasets/marcusrb/uber-peru-dataset) with license: Data files © Original Authors
 
+Any copies from this repo must be under 30%. If over 30%, you have to attach a direct link to this repo in your work.
