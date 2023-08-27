@@ -70,7 +70,9 @@ def get_k_with_highest_accuracy(cv, model, X_train, y_train):
         X_train_topk = X_train[X_train.columns.intersection(features_sorted[:k])]
         scores = cross_val_score(model, X_train_topk, y_train, scoring='accuracy', cv=cv, n_jobs=-1)
         avg_accuracy = np.mean(scores)*100
+        std = np.std(scores)*100
         if avg_accuracy >= max_accuracy:
             max_accuracy = avg_accuracy
             max_acc_k = k
-    print('At k = {}, we obtains the highest average accuracy = {}'.format(max_acc_k, max_accuracy))
+            max_std = std
+    print('At k = {}, we obtains the highest average accuracy = {} (std = {})'.format(max_acc_k, max_accuracy, max_std))
