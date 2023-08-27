@@ -22,7 +22,7 @@
 **Ride-hailing** is an on-demand transportation service that provides an efficient travel mode by matching drivers and travelers via smartphone apps. This industry is very dynamic and gives its customers lots of choices. However, customers become more knowledgeable and less patient nowadays, which easily leads them to switch to competitors (aka **customer churn**)
 
 To meet the need of surviving in this competitive industry, the retention of existing customers becomes a huge challenge. Because retaining an existing customer is a much lower cost than acquiring a new customer, to have a better customer retention strategy, this project will use transactional data about Uber trips as an experiment doing the following:
-* Evaluate the business performance of Uber in 2010
+* Identify trends in riders’ activity
 * Build a prediction model with **Logistic Regression** to detects who is likely to churn in the next 3 months.
 * Segment churners.
 
