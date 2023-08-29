@@ -78,7 +78,7 @@ py functions.py
 * Segment churners: [Churn segmentation.ipynb](https://github.com/hongtranthianh/Uber-Customer-Churn-Prediction/blob/main/Churn%20segmentation.ipynb)
 
 ## 5. Results<a name="results"></a>
-The main findings of the code can be found at the post available [here](https://github.com/hongtranthianh/hongtranthianh.github.io/blob/main/_posts/Capstone%20blog%20post.pdf)
+The main findings of the code can be found at the post available [here](https://medium.com/@ttah.hongtran/customer-churn-prediction-and-analysis-for-uber-ride-hailing-service-fbf1dc75a848)
 
 ## 6. Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
